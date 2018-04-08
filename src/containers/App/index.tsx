@@ -8,6 +8,8 @@ import { Header, MainSection } from '../../components';
 
 import './compiler';
 
+import './interp';
+
 export class App extends React.Component<{}> {
   render() {
 

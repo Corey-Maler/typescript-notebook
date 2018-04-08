@@ -33,7 +33,7 @@ assert(dirs && dirs.length, 2, 'should be only two directories inside');
 v.writeFile('/src/t', 'some data');
 assert(v.readFile('/src/t'), 'some data', 'read data after write');
 
-const a = compile(['const a: number = 3;', `
+const a = compile(['const a: number = 3; a', `
 export class Es {
 	private p: string;
 	constructor(s: string) {
